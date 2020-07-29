@@ -1,8 +1,9 @@
-.link {
-    stroke: #666;
-    opacity: 0.6;
+path.link {
+    fill: none;
+    stroke: gray;
     stroke-width: 1.5px;
-}
+    opacity: 0.6;
+  }
 .node circle {
     stroke: #fff;
     opacity: 0.6;
