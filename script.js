@@ -1,313 +1,372 @@
 const data = {
     "nodes": [
         {
-            "id": "move"
+            "id": "move",
+            "degree": 3
         },
         {
-            "id": "time"
+            "id": "time",
+            "degree": 16
         },
         {
-            "id": "life"
+            "id": "life",
+            "degree": 23
         },
         {
-            "id": "instabl"
+            "id": "instabl",
+            "degree": 6
         },
         {
-            "id": "childhood"
+            "id": "childhood",
+            "degree": 6
         },
         {
-            "id": "gener"
+            "id": "gener",
+            "degree": 6
         },
         {
-            "id": "provid"
+            "id": "provid",
+            "degree": 6
         },
         {
-            "id": "opportun"
+            "id": "opportun",
+            "degree": 6
         },
         {
-            "id": "make"
+            "id": "make",
+            "degree": 6
         },
         {
-            "id": "friend"
+            "id": "friend",
+            "degree": 12
         },
         {
-            "id": "begin"
+            "id": "begin",
+            "degree": 6
         },
         {
-            "id": "feel"
+            "id": "feel",
+            "degree": 6
         },
         {
-            "id": "comfort"
+            "id": "comfort",
+            "degree": 6
         },
         {
-            "id": "b"
+            "id": "perpetu",
+            "degree": 6
         },
         {
-            "id": "e"
+            "id": "face",
+            "degree": 6
         },
         {
-            "id": "perpetu"
+            "id": "class",
+            "degree": 6
         },
         {
-            "id": "face"
+            "id": "frequent",
+            "degree": 6
         },
         {
-            "id": "class"
+            "id": "target",
+            "degree": 12
         },
         {
-            "id": "frequent"
+            "id": "bulli",
+            "degree": 6
         },
         {
-            "id": "target"
+            "id": "ident",
+            "degree": 6
         },
         {
-            "id": "bulli"
+            "id": "secret",
+            "degree": 6
         },
         {
-            "id": "ident"
+            "id": "classmat",
+            "degree": 6
         },
         {
-            "id": "secret"
+            "id": "avoid",
+            "degree": 6
         },
         {
-            "id": "classmat"
+            "id": "turn",
+            "degree": 6
         },
         {
-            "id": "avoid"
+            "id": "quiet",
+            "degree": 6
         },
         {
-            "id": "turn"
+            "id": "chubb",
+            "degree": 6
         },
         {
-            "id": "quiet"
+            "id": "ammunit",
+            "degree": 6
         },
         {
-            "id": "chubb"
+            "id": "part",
+            "degree": 12
         },
         {
-            "id": "ammunit"
+            "id": "spend",
+            "degree": 6
         },
         {
-            "id": "part"
+            "id": "home",
+            "degree": 6
         },
         {
-            "id": "spend"
+            "id": "read",
+            "degree": 6
         },
         {
-            "id": "home"
+            "id": "book",
+            "degree": 6
         },
         {
-            "id": "read"
+            "id": "watch",
+            "degree": 6
         },
         {
-            "id": "book"
+            "id": "play",
+            "degree": 6
         },
         {
-            "id": "watch"
+            "id": "video",
+            "degree": 6
         },
         {
-            "id": "tv"
+            "id": "game",
+            "degree": 6
         },
         {
-            "id": "play"
+            "id": "reason",
+            "degree": 6
         },
         {
-            "id": "video"
+            "id": "social",
+            "degree": 6
         },
         {
-            "id": "game"
+            "id": "skill",
+            "degree": 6
         },
         {
-            "id": "reason"
+            "id": "lack",
+            "degree": 6
         },
         {
-            "id": "social"
+            "id": "household",
+            "degree": 6
         },
         {
-            "id": "skill"
+            "id": "prepar",
+            "degree": 6
         },
         {
-            "id": "lack"
+            "id": "rais",
+            "degree": 6
         },
         {
-            "id": "household"
+            "id": "judg",
+            "degree": 6
         },
         {
-            "id": "n't"
+            "id": "peopl",
+            "degree": 12
         },
         {
-            "id": "prepar"
+            "id": "base",
+            "degree": 6
         },
         {
-            "id": "'ve"
+            "id": "arbitrari",
+            "degree": 6
         },
         {
-            "id": "rais"
+            "id": "measur",
+            "degree": 6
         },
         {
-            "id": "judg"
+            "id": "person",
+            "degree": 6
         },
         {
-            "id": "peopl"
+            "id": "race",
+            "degree": 6
         },
         {
-            "id": "base"
+            "id": "religion",
+            "degree": 6
         },
         {
-            "id": "arbitrari"
+            "id": "open",
+            "degree": 6
         },
         {
-            "id": "measur"
+            "id": "experi",
+            "degree": 6
         },
         {
-            "id": "person"
+            "id": "king",
+            "degree": 6
         },
         {
-            "id": "'s"
+            "id": "presidenti",
+            "degree": 6
         },
         {
-            "id": "race"
+            "id": "elect",
+            "degree": 6
         },
         {
-            "id": "religion"
+            "id": "colleg",
+            "degree": 6
         },
         {
-            "id": "open"
+            "id": "prep",
+            "degree": 6
         },
         {
-            "id": "eye"
+            "id": "program",
+            "degree": 6
         },
         {
-            "id": "experi"
+            "id": "nation",
+            "degree": 6
         },
         {
-            "id": "king"
+            "id": "youth",
+            "degree": 10
         },
         {
-            "id": "presidenti"
+            "id": "convent",
+            "degree": 6
         },
         {
-            "id": "elect"
+            "id": "philadelphia",
+            "degree": 6
         },
         {
-            "id": "colleg"
+            "id": "violenc",
+            "degree": 6
         },
         {
-            "id": "prep"
+            "id": "subject",
+            "degree": 6
         },
         {
-            "id": "program"
+            "id": "member",
+            "degree": 6
         },
         {
-            "id": "nation"
+            "id": "group",
+            "degree": 6
         },
         {
-            "id": "youth"
+            "id": "walk",
+            "degree": 6
         },
         {
-            "id": "convent"
+            "id": "found",
+            "degree": 12
         },
         {
-            "id": "philadelphia"
+            "id": "befriend",
+            "degree": 6
         },
         {
-            "id": "violenc"
+            "id": "jewish",
+            "degree": 12
         },
         {
-            "id": "subject"
+            "id": "detail",
+            "degree": 6
         },
         {
-            "id": "member"
+            "id": "light",
+            "degree": 6
         },
         {
-            "id": "group"
+            "id": "realiz",
+            "degree": 6
         },
         {
-            "id": "walk"
+            "id": "natur",
+            "degree": 6
         },
         {
-            "id": "day"
+            "id": "animos",
+            "degree": 6
         },
         {
-            "id": "found"
+            "id": "frankli",
+            "degree": 6
         },
         {
-            "id": "kid"
+            "id": "felt",
+            "degree": 6
         },
         {
-            "id": "befriend"
+            "id": "sens",
+            "degree": 6
         },
         {
-            "id": "jewish"
+            "id": "pride",
+            "degree": 6
         },
         {
-            "id": "detail"
+            "id": "overcom",
+            "degree": 6
         },
         {
-            "id": "light"
+            "id": "barrier",
+            "degree": 6
         },
         {
-            "id": "realiz"
+            "id": "believ",
+            "degree": 6
         },
         {
-            "id": "natur"
+            "id": "insurmount",
+            "degree": 6
         },
         {
-            "id": "animos"
+            "id": "point",
+            "degree": 6
         },
         {
-            "id": "frankli"
+            "id": "summer",
+            "degree": 6
         },
         {
-            "id": "felt"
+            "id": "busch",
+            "degree": 6
         },
         {
-            "id": "sens"
+            "id": "garden",
+            "degree": 6
         },
         {
-            "id": "pride"
+            "id": "expos",
+            "degree": 6
         },
         {
-            "id": "overcom"
+            "id": "sort",
+            "degree": 5
         },
         {
-            "id": "barrier"
+            "id": "faith",
+            "degree": 4
         },
         {
-            "id": "led"
-        },
-        {
-            "id": "believ"
-        },
-        {
-            "id": "insurmount"
-        },
-        {
-            "id": "point"
-        },
-        {
-            "id": "summer"
-        },
-        {
-            "id": "job"
-        },
-        {
-            "id": "busch"
-        },
-        {
-            "id": "garden"
-        },
-        {
-            "id": "expos"
-        },
-        {
-            "id": "sort"
-        },
-        {
-            "id": "faith"
-        },
-        {
-            "id": "cultur"
+            "id": "cultur",
+            "degree": 3
         }
     ],
     "links": [
@@ -404,32 +463,32 @@ const data = {
         {
             "weight": 3,
             "source": "life",
-            "target": "day"
+            "target": "found"
         },
         {
             "weight": 2,
             "source": "life",
-            "target": "found"
+            "target": "befriend"
         },
         {
             "weight": 1,
             "source": "life",
-            "target": "kid"
+            "target": "jewish"
         },
         {
             "weight": 3,
             "source": "life",
-            "target": "'ve"
+            "target": "believ"
         },
         {
             "weight": 2,
             "source": "life",
-            "target": "led"
+            "target": "insurmount"
         },
         {
             "weight": 1,
             "source": "life",
-            "target": "believ"
+            "target": "point"
         },
         {
             "weight": 3,
@@ -564,7 +623,7 @@ const data = {
         {
             "weight": 1,
             "source": "begin",
-            "target": "b"
+            "target": "perpetu"
         },
         {
             "weight": 3,
@@ -574,56 +633,26 @@ const data = {
         {
             "weight": 2,
             "source": "feel",
-            "target": "b"
+            "target": "perpetu"
         },
         {
             "weight": 1,
             "source": "feel",
-            "target": "e"
-        },
-        {
-            "weight": 3,
-            "source": "comfort",
-            "target": "b"
-        },
-        {
-            "weight": 2,
-            "source": "comfort",
-            "target": "e"
-        },
-        {
-            "weight": 1,
-            "source": "comfort",
-            "target": "perpetu"
-        },
-        {
-            "weight": 3,
-            "source": "b",
-            "target": "e"
-        },
-        {
-            "weight": 2,
-            "source": "b",
-            "target": "perpetu"
-        },
-        {
-            "weight": 1,
-            "source": "b",
             "target": "face"
         },
         {
             "weight": 3,
-            "source": "e",
+            "source": "comfort",
             "target": "perpetu"
         },
         {
             "weight": 2,
-            "source": "e",
+            "source": "comfort",
             "target": "face"
         },
         {
             "weight": 1,
-            "source": "e",
+            "source": "comfort",
             "target": "class"
         },
         {
@@ -924,7 +953,7 @@ const data = {
         {
             "weight": 1,
             "source": "read",
-            "target": "tv"
+            "target": "play"
         },
         {
             "weight": 3,
@@ -934,41 +963,26 @@ const data = {
         {
             "weight": 2,
             "source": "book",
-            "target": "tv"
+            "target": "play"
         },
         {
             "weight": 1,
             "source": "book",
-            "target": "play"
-        },
-        {
-            "weight": 3,
-            "source": "watch",
-            "target": "tv"
-        },
-        {
-            "weight": 2,
-            "source": "watch",
-            "target": "play"
-        },
-        {
-            "weight": 1,
-            "source": "watch",
             "target": "video"
         },
         {
             "weight": 3,
-            "source": "tv",
+            "source": "watch",
             "target": "play"
         },
         {
             "weight": 2,
-            "source": "tv",
+            "source": "watch",
             "target": "video"
         },
         {
             "weight": 1,
-            "source": "tv",
+            "source": "watch",
             "target": "game"
         },
         {
@@ -1059,7 +1073,7 @@ const data = {
         {
             "weight": 1,
             "source": "skill",
-            "target": "n't"
+            "target": "prepar"
         },
         {
             "weight": 3,
@@ -1069,102 +1083,42 @@ const data = {
         {
             "weight": 2,
             "source": "lack",
-            "target": "n't"
+            "target": "prepar"
         },
         {
             "weight": 1,
             "source": "lack",
-            "target": "prepar"
-        },
-        {
-            "weight": 3,
-            "source": "household",
-            "target": "n't"
-        },
-        {
-            "weight": 2,
-            "source": "household",
-            "target": "prepar"
-        },
-        {
-            "weight": 1,
-            "source": "household",
-            "target": "'ve"
-        },
-        {
-            "weight": 3,
-            "source": "n't",
-            "target": "prepar"
-        },
-        {
-            "weight": 2,
-            "source": "n't",
-            "target": "'ve"
-        },
-        {
-            "weight": 1,
-            "source": "n't",
             "target": "rais"
         },
         {
             "weight": 3,
-            "source": "prepar",
-            "target": "'ve"
+            "source": "household",
+            "target": "prepar"
         },
         {
             "weight": 2,
-            "source": "prepar",
+            "source": "household",
             "target": "rais"
         },
         {
             "weight": 1,
-            "source": "prepar",
+            "source": "household",
             "target": "judg"
         },
         {
             "weight": 3,
-            "source": "'ve",
+            "source": "prepar",
             "target": "rais"
         },
         {
             "weight": 2,
-            "source": "'ve",
+            "source": "prepar",
             "target": "judg"
         },
         {
             "weight": 1,
-            "source": "'ve",
+            "source": "prepar",
             "target": "peopl"
-        },
-        {
-            "weight": 3,
-            "source": "'ve",
-            "target": "jewish"
-        },
-        {
-            "weight": 2,
-            "source": "'ve",
-            "target": "friend"
-        },
-        {
-            "weight": 1,
-            "source": "'ve",
-            "target": "frankli"
-        },
-        {
-            "weight": 3,
-            "source": "'ve",
-            "target": "led"
-        },
-        {
-            "weight": 2,
-            "source": "'ve",
-            "target": "believ"
-        },
-        {
-            "weight": 1,
-            "source": "'ve",
-            "target": "insurmount"
         },
         {
             "weight": 3,
@@ -1254,7 +1208,7 @@ const data = {
         {
             "weight": 1,
             "source": "arbitrari",
-            "target": "'s"
+            "target": "race"
         },
         {
             "weight": 3,
@@ -1264,41 +1218,26 @@ const data = {
         {
             "weight": 2,
             "source": "measur",
-            "target": "'s"
+            "target": "race"
         },
         {
             "weight": 1,
             "source": "measur",
-            "target": "race"
-        },
-        {
-            "weight": 3,
-            "source": "person",
-            "target": "'s"
-        },
-        {
-            "weight": 2,
-            "source": "person",
-            "target": "race"
-        },
-        {
-            "weight": 1,
-            "source": "person",
             "target": "religion"
         },
         {
             "weight": 3,
-            "source": "'s",
+            "source": "person",
             "target": "race"
         },
         {
             "weight": 2,
-            "source": "'s",
+            "source": "person",
             "target": "religion"
         },
         {
             "weight": 1,
-            "source": "'s",
+            "source": "person",
             "target": "open"
         },
         {
@@ -1314,51 +1253,36 @@ const data = {
         {
             "weight": 1,
             "source": "race",
-            "target": "eye"
-        },
-        {
-            "weight": 3,
-            "source": "religion",
-            "target": "open"
-        },
-        {
-            "weight": 2,
-            "source": "religion",
-            "target": "eye"
-        },
-        {
-            "weight": 1,
-            "source": "religion",
             "target": "experi"
         },
         {
             "weight": 3,
-            "source": "open",
-            "target": "eye"
+            "source": "religion",
+            "target": "open"
         },
         {
             "weight": 2,
-            "source": "open",
+            "source": "religion",
             "target": "experi"
         },
         {
             "weight": 1,
-            "source": "open",
+            "source": "religion",
             "target": "king"
         },
         {
             "weight": 3,
-            "source": "eye",
+            "source": "open",
             "target": "experi"
         },
         {
             "weight": 2,
-            "source": "eye",
+            "source": "open",
             "target": "king"
         },
         {
             "weight": 1,
-            "source": "eye",
+            "source": "open",
             "target": "presidenti"
         },
         {
@@ -1594,7 +1518,7 @@ const data = {
         {
             "weight": 1,
             "source": "group",
-            "target": "day"
+            "target": "found"
         },
         {
             "weight": 3,
@@ -1604,57 +1528,27 @@ const data = {
         {
             "weight": 2,
             "source": "walk",
-            "target": "day"
+            "target": "found"
         },
         {
             "weight": 1,
             "source": "walk",
-            "target": "found"
-        },
-        {
-            "weight": 3,
-            "source": "day",
-            "target": "found"
-        },
-        {
-            "weight": 2,
-            "source": "day",
-            "target": "kid"
-        },
-        {
-            "weight": 1,
-            "source": "day",
             "target": "befriend"
         },
         {
             "weight": 3,
-            "source": "day",
-            "target": "detail"
-        },
-        {
-            "weight": 2,
-            "source": "day",
-            "target": "light"
-        },
-        {
-            "weight": 1,
-            "source": "day",
-            "target": "realiz"
-        },
-        {
-            "weight": 3,
-            "source": "found",
-            "target": "kid"
-        },
-        {
-            "weight": 2,
             "source": "found",
             "target": "befriend"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "source": "found",
             "target": "jewish"
+        },
+        {
+            "weight": 1,
+            "source": "found",
+            "target": "detail"
         },
         {
             "weight": 3,
@@ -1664,27 +1558,12 @@ const data = {
         {
             "weight": 2,
             "source": "found",
-            "target": "job"
+            "target": "busch"
         },
         {
             "weight": 1,
             "source": "found",
-            "target": "busch"
-        },
-        {
-            "weight": 3,
-            "source": "kid",
-            "target": "befriend"
-        },
-        {
-            "weight": 2,
-            "source": "kid",
-            "target": "jewish"
-        },
-        {
-            "weight": 1,
-            "source": "kid",
-            "target": "day"
+            "target": "garden"
         },
         {
             "weight": 3,
@@ -1694,27 +1573,27 @@ const data = {
         {
             "weight": 2,
             "source": "befriend",
-            "target": "day"
+            "target": "detail"
         },
         {
             "weight": 1,
             "source": "befriend",
-            "target": "detail"
+            "target": "light"
         },
         {
             "weight": 3,
             "source": "jewish",
-            "target": "day"
-        },
-        {
-            "weight": 2,
-            "source": "jewish",
             "target": "detail"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "source": "jewish",
             "target": "light"
+        },
+        {
+            "weight": 1,
+            "source": "jewish",
+            "target": "realiz"
         },
         {
             "weight": 3,
@@ -1774,7 +1653,7 @@ const data = {
         {
             "weight": 1,
             "source": "realiz",
-            "target": "'ve"
+            "target": "jewish"
         },
         {
             "weight": 3,
@@ -1784,27 +1663,27 @@ const data = {
         {
             "weight": 2,
             "source": "natur",
-            "target": "'ve"
+            "target": "jewish"
         },
         {
             "weight": 1,
             "source": "natur",
-            "target": "jewish"
+            "target": "friend"
         },
         {
             "weight": 3,
             "source": "animos",
-            "target": "'ve"
+            "target": "jewish"
         },
         {
             "weight": 2,
             "source": "animos",
-            "target": "jewish"
+            "target": "friend"
         },
         {
             "weight": 1,
             "source": "animos",
-            "target": "friend"
+            "target": "frankli"
         },
         {
             "weight": 3,
@@ -1879,7 +1758,7 @@ const data = {
         {
             "weight": 1,
             "source": "overcom",
-            "target": "'ve"
+            "target": "believ"
         },
         {
             "weight": 3,
@@ -1889,27 +1768,12 @@ const data = {
         {
             "weight": 2,
             "source": "barrier",
-            "target": "'ve"
+            "target": "believ"
         },
         {
             "weight": 1,
             "source": "barrier",
-            "target": "led"
-        },
-        {
-            "weight": 3,
-            "source": "led",
-            "target": "believ"
-        },
-        {
-            "weight": 2,
-            "source": "led",
             "target": "insurmount"
-        },
-        {
-            "weight": 1,
-            "source": "led",
-            "target": "point"
         },
         {
             "weight": 3,
@@ -1954,36 +1818,21 @@ const data = {
         {
             "weight": 1,
             "source": "point",
-            "target": "job"
+            "target": "busch"
         },
         {
             "weight": 3,
             "source": "summer",
-            "target": "job"
-        },
-        {
-            "weight": 2,
-            "source": "summer",
-            "target": "busch"
-        },
-        {
-            "weight": 1,
-            "source": "summer",
-            "target": "garden"
-        },
-        {
-            "weight": 3,
-            "source": "job",
             "target": "busch"
         },
         {
             "weight": 2,
-            "source": "job",
+            "source": "summer",
             "target": "garden"
         },
         {
             "weight": 1,
-            "source": "job",
+            "source": "summer",
             "target": "expos"
         },
         {
@@ -2047,7 +1896,6 @@ const data = {
             "target": "cultur"
         }
     ]
-
 }
 
 // const data = {
@@ -2132,15 +1980,17 @@ const data = {
       .call(force.drag);
   
   node.append("circle")
-      .attr("r", radius)
+      .attr("r", function(d) { return d.degree/2+3; })
       .style("fill", "#C71585");
   
   node.append("text")
       .attr("x", 14)
       .attr("dy", ".35em")
-      .style("fill", "#333")
+      .style("fill", "black")
       .text(function (d) {
+        if (d.degree > radius){
       return d.id;
+        }
   });
   
   function tick() {
@@ -2168,7 +2018,7 @@ const data = {
   function mouseover() {
       d3.select(this).select("circle").transition()
           .duration(750)
-          .attr("r", 16);
+          .attr("r", function(d) { return d.degree/2+10; });
           d3.select(this).select("text").transition()
           .duration(750)
           .style("font-size", 30);
@@ -2177,7 +2027,7 @@ const data = {
   function mouseout() {
       d3.select(this).select("circle").transition()
           .duration(750)
-          .attr("r", 6);
+          .attr("r", function(d) { return d.degree/2+3; });
 
           d3.select(this).select("text").transition()
           .duration(750)
